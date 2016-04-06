@@ -6,6 +6,7 @@ import (
 
 	// blank identifier, umożliwia uruchomienie funkcji init z innego pliku z
 	// pakietu; taka funkcja init będzie w pliku rss.go
+	// kompilator szuka pakietów w GOROOT i GOPATH (src)
 
 	_ "go_book_action/go_action_sample/matchers"
 	"go_book_action/go_action_sample/search"
